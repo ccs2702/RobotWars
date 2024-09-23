@@ -10,20 +10,40 @@ public class test {
 
         System.out.println(name);
 
+        int Y = 1;
+        int rX = 6;
+        int rY = 7;
 
-        int y = 0;
+        boolean playerP = false;
 
-        while (y < 10) {
-            int x = 0;
+        while (Y <= 10) {
+            int X = 1;
 
-            while (x < 12) {
-                System.out.print("[ ]");
-                x++;
+            while (X <= 12) {
+                int tmpX = X;
+                int tmpY = Y;
+
+                while (rX == tmpX) {
+                    while (rY == tmpY) {
+                        System.out.print("{O}");
+                        playerP = true;
+                        X++;
+                        tmpY++;
+                    }
+                    tmpX++;
+                }
+                while (playerP == false) {
+                    System.out.print("[ ]");
+                    X++;
+                    playerP = true;
+                }
+                playerP = false;
             }
             System.out.println();
-            y++;
+            Y++;
         }
-        String feld = y +":";
+        Y = 0;
+        String feld = Y + ":";
         System.out.println();
         System.out.println("Dein Roboter befindet sich auf Feld: " + feld);
     }
