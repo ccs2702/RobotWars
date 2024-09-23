@@ -3,7 +3,7 @@ package com.btcag.bootcamp;
 import java.util.Scanner;
 
 public class Skin {
-    public static void main(String[] args) {
+    public static void skinAuswahl() {
         Scanner scanner = new Scanner(System.in);
         String antwort = "";
 

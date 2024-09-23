@@ -31,6 +31,10 @@ public class Main {
 
         Thread.sleep(1000);
 
+        Skin.skinAuswahl();
+
+        Thread.sleep(1000);
+
         System.out.println("[R][O][B][O][T]         [W][A][R][S]" + "\n");
 
         Thread.sleep(500);
