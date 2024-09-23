@@ -25,7 +25,7 @@ public class Main {
         System.out.println("Starten des Spiels...\n");
         Thread.sleep(800);
 
-        System.out.println("Herzlich Willkommen zu RobotWars" + name1 + "\n");
+        System.out.println("Herzlich Willkommen zu RobotWars " + name1 + "!\n");
         System.out.println("Ein Spiel in dem Roboter sich beweisen müssen.");
         System.out.println("Nur einer kann Gewinnen!" + "\n");
 
