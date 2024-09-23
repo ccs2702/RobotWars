@@ -16,7 +16,7 @@ public class Skin {
                 "    __|_______|------'\n" +
                 ".  //------------\\\\\n" +
                 "....\\____________/\n");
-        System.out.println("Damage: 15\n");
+        System.out.println("Damage: 15");
         System.out.println("Health: 12\n");
 
         System.out.println("\n");
@@ -26,7 +26,7 @@ public class Skin {
                 "      _/       China        \\\n" +
                 "      /______________________|\n" +
                 "        \\()__()__()__()__()/" + "\n");
-        System.out.println("Damage: 5\n");
+        System.out.println("Damage: 5");
         System.out.println("Health: 30 \n");
 
         System.out.println("\n");
@@ -38,7 +38,7 @@ public class Skin {
                 "/ ___________________ \\\n" +
                 "\\/ _===============_ \\/\n" +
                 "  \"-===============-\"" + "\n");
-        System.out.println("Damage: 10 \n");
+        System.out.println("Damage: 10");
         System.out.println("Health: 20 \n");
 
         System.out.println("\n");
