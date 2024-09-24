@@ -39,10 +39,12 @@ public class Skin {
 
         System.out.println("\n");
 
-        // Der Spieler wird aufgefordert einen der gezeigten Skins zu wählen
-        System.out.println("Wähle einen Skin (1/2/3):\n");
-        antwort = scanner.nextLine().trim().toLowerCase();
-        System.out.println();
+        while (!antwort.equals("1") && !antwort.equals("2") && !antwort.equals("3")) {
+            // Der Spieler wird aufgefordert einen der gezeigten Skins zu wählen
+            System.out.println("Wähle einen Skin (1/2/3):\n");
+            antwort = scanner.nextLine().trim().toLowerCase();
+            System.out.println();
+        }
 
         // Die antwort wird analysiert und wiedergegeben
         System.out.println("Sie haben Skin " + antwort + " gewählt.\n");
