@@ -39,7 +39,9 @@ public class Skin {
 
         System.out.println("\n");
 
+        // Die Abfrage wird so lange durchlaufen, bis eine der drei Optionen ausgewählt wurde
         while (!antwort.equals("1") && !antwort.equals("2") && !antwort.equals("3")) {
+
             // Der Spieler wird aufgefordert einen der gezeigten Skins zu wählen
             System.out.println("Wähle einen Skin (1/2/3):\n");
             antwort = scanner.nextLine().trim().toLowerCase();
