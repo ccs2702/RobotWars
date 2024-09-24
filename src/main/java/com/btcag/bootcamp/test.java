@@ -11,8 +11,8 @@ public class test {
         System.out.println(name);
 
         int Y = 1;
-        int rX = 6;
-        int rY = 7;
+        int rX = 5;
+        int rY = 8;
 
         boolean playerP = false;
 
