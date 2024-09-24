@@ -1,15 +1,9 @@
 package com.btcag.bootcamp;
 
-import java.util.Scanner;
+public class Spielfeld {
+    public static void spielfeld() {
 
-public class test {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Geben Sie einen Namen an: ");
-        String name = scanner.nextLine();
-
-        System.out.println(name);
-
+        // Die Variablen für die Koordinaten des Roboters werden definiert
         int Y = 1;
         int rX = 5;
         int rY = 8;
@@ -42,8 +36,10 @@ public class test {
             System.out.println();
             Y++;
         }
+
+        // Der Y-Wert wird wieder auf 0 gesetzt und die Position des Roboters wird ausgegeben
         Y = 0;
-        String feld = Y + ":";
+        String feld = rX + ":" + rY;
         System.out.println();
         System.out.println("Dein Roboter befindet sich auf Feld: " + feld);
     }

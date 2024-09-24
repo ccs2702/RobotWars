@@ -47,18 +47,6 @@ public class Main {
         Thread.sleep(500);
 
         // Das Spielfeld für RobotWars wird ausgegeben und anschließend wir der Name des Roboters ausgegeben und die Position auf dem Feld
-        System.out.println("[ ][A][B][C][D][E][F][G][H][I][J][K]");
-        System.out.println("[0][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
-        System.out.println("[1][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
-        System.out.println("[2][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
-        System.out.println("[3][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
-        System.out.println("[4][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
-        System.out.println("[5][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
-        System.out.println("[6][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
-        System.out.println("[7][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
-        System.out.println("[8][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
-        System.out.println("[9][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]" + "\n");
-        System.out.println("Ihr Roboter heißt: " + name + "\n");
-        System.out.println("Dein Roboter befindet sich auf dem Feld A:0");
+        Spielfeld.spielfeld();
     }
 }

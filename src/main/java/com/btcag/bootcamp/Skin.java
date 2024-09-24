@@ -9,6 +9,7 @@ public class Skin {
 
         System.out.println();
 
+        // Die auswählbaren Skins werden durch ASCII dargestellt
         System.out.println("      \\ O\n" +
                 "       _\\--__\n" +
                 "      /  USA \\_______\n" +
@@ -38,10 +39,12 @@ public class Skin {
 
         System.out.println("\n");
 
+        // Der Spieler wird aufgefordert einen der gezeigten Skins zu wählen
         System.out.println("Wähle einen Skin (1/2/3):\n");
         antwort = scanner.nextLine().trim().toLowerCase();
         System.out.println();
 
+        // Die antwort wird analysiert und wiedergegeben
         System.out.println("Sie haben Skin " + antwort + " gewählt.\n");
         System.out.println(
                 antwort.equals("1") ? "      \\ O\n" +
