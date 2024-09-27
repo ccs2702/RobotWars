@@ -26,7 +26,7 @@ public class Spielfeld {
                     }
                     tmpX++;
                 }
-                while (playerP == false) {
+                while (!playerP) {
                     System.out.print("[ ]");
                     X++;
                     playerP = true;
@@ -37,8 +37,7 @@ public class Spielfeld {
             Y++;
         }
 
-        // Der Y-Wert wird wieder auf 0 gesetzt und die Position des Roboters wird ausgegeben
-        Y = 0;
+        // Die Position des Roboters wird ausgegeben
         String feld = rX + ":" + rY;
         System.out.println();
         System.out.println("Dein Roboter befindet sich auf Feld: " + feld);
