@@ -50,33 +50,32 @@ public class Skin {
 
         // Die antwort wird analysiert und wiedergegeben
         System.out.println("Sie haben Skin " + antwort + " gewählt.\n");
-        System.out.println(
-                antwort.equals("1") ? "      \\ O\n" +
-                        "       _\\--__\n" +
-                        "      /  USA \\_______\n" +
-                        "    __|_______|------'\n" +
-                        ".  //------------\\\\\n" +
-                        "....\\____________/\n" +
-                        "Damage: 15 \n" +
-                        "Health: 12 \n" :
 
-                        antwort.equals("2") ? "        __________\n" +
-                                "*=======|__________\\_______\n" +
-                                "      _/       China        \\\n" +
-                                "      /______________________|\n" +
-                                "        \\()__()__()__()__()/\n" +
-                                "Damage: 5 \n" +
-                                "Health: 30 \n" :
-
-
-                                "      __\\______\n" +
-                                        "     / Germany \\========\n" +
-                                        " ___|___________\\_____\n" +
-                                        "/ ___________________ \\\n" +
-                                        "\\/ _===============_ \\/\n" +
-                                        "  \"-===============-\"\n" +
-                                        "Damage: 10 \n" +
-                                        "Health: 20 \n"
-        );
+        switch (antwort) {
+            case "1" -> System.out.println("      \\ O\n" +
+                    "       _\\--__\n" +
+                    "      /  USA \\_______\n" +
+                    "    __|_______|------'\n" +
+                    ".  //------------\\\\\n" +
+                    "....\\____________/\n" +
+                    "Damage: 15 \n" +
+                    "Health: 12 \n");
+            case "2" -> System.out.println("        __________\n" +
+                    "*=======|__________\\_______\n" +
+                    "      _/       China        \\\n" +
+                    "      /______________________|\n" +
+                    "        \\()__()__()__()__()/\n" +
+                    "Damage: 5 \n" +
+                    "Health: 30 \n");
+            case "3" -> System.out.println("      __\\______\n" +
+                    "     / Germany \\========\n" +
+                    " ___|___________\\_____\n" +
+                    "/ ___________________ \\\n" +
+                    "\\/ _===============_ \\/\n" +
+                    "  \"-===============-\"\n" +
+                    "Damage: 10 \n" +
+                    "Health: 20 \n");
+            default -> System.out.println("Üngültige angabe.");
+        }
     }
 }

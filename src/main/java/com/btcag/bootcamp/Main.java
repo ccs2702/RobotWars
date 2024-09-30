@@ -46,8 +46,9 @@ public class Main {
 
         Thread.sleep(500);
 
-        // Das Spielfeld für RobotWars wird ausgegeben und anschließend wird der Name des Roboters ausgegeben und die Position auf dem Feld
-        Spielfeld.spielfeld();
         System.out.println("Dein Roboter heißt: " + name);
+
+        // Das Spielfeld für RobotWars wird ausgegeben und anschließend wird Die Position auf dem Feld
+        Spielfeld.spielfeld();
     }
 }
