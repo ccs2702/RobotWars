@@ -9,8 +9,8 @@ public class Spielfeld {
         // Die Variablen für die Koordinaten des Roboters werden definiert
         int zeilen = 10;
         int spalten = 12;
-        int rX = 5;
-        int rY = 8;
+        int rX = 1;
+        int rY = 1;
 
         System.out.println("Ziehe in die Schlacht!\n");
 
