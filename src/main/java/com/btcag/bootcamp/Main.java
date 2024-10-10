@@ -20,7 +20,7 @@ public class Main {
             System.out.println("Bitte geben Sie Ihren Namen ein, Spieler 1:");
             nameSpieler1 = scanner.nextLine();
 
-            if (nameSpieler1.isEmpty()) {
+            if (nameSpieler1.isEmpty() || nameSpieler1.length() > 15) {
                 System.out.println("Ungültige Eingabe. Gib einen Namen an. \n");
             }
         } while (nameSpieler1.isEmpty());
@@ -30,7 +30,7 @@ public class Main {
             System.out.println("Bitte geben Sie den Namen für Ihren Roboter ein, Spieler 1:");
             nameRoboter1 = scanner.nextLine();
 
-            if (nameRoboter1.isEmpty()) {
+            if (nameRoboter1.isEmpty() || nameRoboter1.length() > 15) {
                 System.out.println("Ungültige Eingabe. Gib einen Namen an. \n");
             }
         } while (nameRoboter1.isEmpty());
@@ -41,7 +41,7 @@ public class Main {
             System.out.println("Bitte geben Sie Ihren Namen ein, Spieler 2:");
             nameSpieler2 = scanner.nextLine();
 
-            if (nameSpieler2.isEmpty()) {
+            if (nameSpieler2.isEmpty() || nameSpieler2.length() > 15) {
                 System.out.println("Ungültige Eingabe. Gib einen Namen an. \n");
             }
         } while (nameSpieler2.isEmpty());
@@ -51,10 +51,12 @@ public class Main {
             System.out.println("Bitte geben Sie den Namen für Ihren Roboter ein, Spieler 2:");
             nameRoboter2 = scanner.nextLine();
 
-            if (nameRoboter2.isEmpty()) {
+            if (nameRoboter2.isEmpty() || nameRoboter2.length() > 15) {
                 System.out.println("Ungültige Eingabe. Gib einen Namen an. \n");
             }
         } while (nameRoboter2.isEmpty());
+
+        System.out.println();
 
         //Es wird ein Ladebildschirm initialisiert, mit Verzögerung
         System.out.println("///////////////");
@@ -84,7 +86,7 @@ public class Main {
         Thread.sleep(lang);
 
         // Die Überschrift wird angezeigt
-        System.out.println("[R][O][B][O][T]         [W][A][R][S]" + "\n");
+        System.out.println("[R][O][B][O][T]    🤖    [W][A][R][S]" + "\n");
 
         Thread.sleep(kurz);
 
